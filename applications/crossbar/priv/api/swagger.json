@@ -7670,6 +7670,19 @@
             },
             "type": "object"
         },
+        "system_config.auth.mfa": {
+            "description": "Schema for auth.mfa system_config",
+            "properties": {
+                "default_provider": {
+                    "description": "Default provider name for multi authentication factor",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "default_provider"
+            ],
+            "type": "object"
+        },
         "system_config.blackhole": {
             "description": "Schema for blackhole system_config",
             "properties": {
